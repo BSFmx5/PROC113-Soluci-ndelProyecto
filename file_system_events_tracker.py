@@ -11,7 +11,7 @@ from watchdog.events import FileSystemEventHandler
 
 from_dir = "/Users/Kuttimma/Downloads"
 
-# Event Hanlder Class
+# Clase Event Hanlder
 class FileEventHandler(FileSystemEventHandler):
 
     def on_created(self, event):
